@@ -1,0 +1,41 @@
+1- criar pasta do projeto
+2 - Incializar o projeto (cria arquivo package.json)
+    $yarn init -y
+3- Instalar dependecias
+    $yarn add typescript -D
+4- Incializar o typescript
+    $yarn tsc --init
+    ->tsconfig.json 
+        *desabilitar o "strict": false
+    $yarn tsc
+5-Executar arquivo
+    $node arquivo.ts/js
+6- Usando o framework Express
+    $yarn add express
+7- Excluir os index
+8- Criar pasta /src
+9- Criar arquivo server.ts dentro de /src
+10 - Intalar tipagem @typescript/express
+    $yarn add @types/express -D
+11- Transformar em .js
+    $yarn tsc
+12- Automizar os arquivos js
+    $yarn add ts-node-dev -D
+13- Adicionar no package.json
+ "scripts": {
+    "dev":"ts-node-dev src/server.ts"
+  },
+14- Criando rotas GET - POST
+15- Instalar banco de dados
+    $yarn add typeorm reflect-metadata sqlite3
+16- Criar entidade (tabela)
+    $yarn typeorm migration:create -n CreateUsers
+17- Executar as entidades
+    $yarn typeorm migrations:run
+18- Remover uma migrations
+    $yarn typeorm migration:revert
+18- Criar uma entidade(arquivo)
+    $yarn typeorm entity:create -n User
+20- Instalar dependencia   
+    $yarn add uuid
+    $yarn add @types/uuid -D

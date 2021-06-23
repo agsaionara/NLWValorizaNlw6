@@ -36,6 +36,8 @@
     $yarn typeorm migration:revert
 18- Criar uma entidade(arquivo)
     $yarn typeorm entity:create -n User
-20- Instalar dependencia   
+20- Instalar dependencia => Numeros aleatorios
     $yarn add uuid
     $yarn add @types/uuid -D
+21- Tratamento de erros assincronos  
+    $yarn add express-async-errors

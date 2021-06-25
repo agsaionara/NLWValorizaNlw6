@@ -41,3 +41,11 @@
     $yarn add @types/uuid -D
 21- Tratamento de erros assincronos  
     $yarn add express-async-errors
+22- JWT - Token entre as requisições
+    $yarn add jsonwebtoken
+    $yarn add @types/jsonwebtoken -D 
+23- Alterando coluna na tabela
+    .alterTable
+24- Encriptar a senha
+    $yarn add bcryptjs
+    $yarn add @types/bcryptjs -D

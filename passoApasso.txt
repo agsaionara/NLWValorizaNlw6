@@ -49,3 +49,6 @@
 24- Encriptar a senha
     $yarn add bcryptjs
     $yarn add @types/bcryptjs -D
+25- Modifcar saida de dados
+    $yarn add class-transformer
+
